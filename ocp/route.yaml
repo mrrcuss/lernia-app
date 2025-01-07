@@ -4,7 +4,7 @@ kind: Route
 metadata:
   name: jonas-lernia-app
 spec:
-  host: jonas-lernia-app.apps.cluster5.karoshi.se
+  host: marcus-lernia-app.apps.cluster5.karoshi.se/albums
   port:
     targetPort: 8080
   to:
