@@ -2,14 +2,14 @@
 apiVersion: route.openshift.io/v1
 kind: Route
 metadata:
-  name: jonas-lernia-app
+  name: marcus-lernia-app
 spec:
   host: marcus-lernia-app.apps.cluster5.karoshi.se/albums
   port:
     targetPort: 8080
   to:
     kind: Service
-    name: jonas-lernia-app
+    name: marcus-lernia-app
     weight: 100
   wildcardPolicy: None
 
