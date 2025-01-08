@@ -3,7 +3,7 @@ name: build-golang-app
 
 on: 
   push: 
-    branches: ["latest"]
+    branches: ["main"]
 
 env: 
   REGISTRY: ghcr.io
